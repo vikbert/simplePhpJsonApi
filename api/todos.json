@@ -1,4 +1,4 @@
 [
   { "id": 1, "title": "firefox", "starred": 0, "completed": false },
-  { "id": 0, "title": "safari", "starred": 0, "completed": false }
+  { "id": 0, "title": "foobar", "starred": 0, "completed": false }
 ]
