@@ -5,6 +5,7 @@ declare(strict_types = 1);
 function handleRequest(string $output)
 {
     header("Access-Control-Allow-Origin: *");
+    header("Content-type: application/json");
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $jsonString = file_get_contents("php://input");
         file_put_contents($output, $jsonString);
