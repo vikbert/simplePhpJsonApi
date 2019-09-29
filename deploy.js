@@ -15,7 +15,7 @@ var config = {
   deleteRemote: false, // delete ALL existing files at destination before uploading, if true
   forcePasv: true // Passive mode is forced (EPSV command is not sent)
 };
-console.log(config);
+
 // use with promises
 ftpDeploy
   .deploy(config)
